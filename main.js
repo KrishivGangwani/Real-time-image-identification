@@ -29,7 +29,7 @@ if (error) {
     synth.speak(utterThis);
 
     document.getElementById("result_obj").innerHTML = results[0].label;
-    document.getElementById("result_acc").innerHTML = results[0].label.toFixed(3);
+    document.getElementById("result_acc").innerHTML = results[0].confidence.toFixed(3);
 
 
   }
